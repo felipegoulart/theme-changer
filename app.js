@@ -53,8 +53,8 @@ const changeThemeIfChecked = ({ target }) => {
 const themeInLocalStorage = getThemeInLocalStorage()
 
 const checkWhichThemeIsSavedInLocalStorage = (theme) => {
-  if(theme.title === 'lightTheme') switchTheme.checked = false
-  else switchTheme.checked = true
+  if(theme?.title === 'darkTheme') switchTheme.checked = true
+  else switchTheme.checked = false
 }
 
 checkWhichThemeIsSavedInLocalStorage(...themeInLocalStorage)
