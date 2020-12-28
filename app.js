@@ -59,5 +59,6 @@ const checkWhichThemeIsSavedInLocalStorage = (theme) => {
 
 checkWhichThemeIsSavedInLocalStorage(...themeInLocalStorage)
 
-changeStyle(...themeInLocalStorage)
+if (localStorage.key('theme')) changeStyle(...themeInLocalStorage)
+
 switchTheme.addEventListener('change', changeThemeIfChecked)
