@@ -9,7 +9,7 @@
 html {
   --background-color: #e2e2ee;
   --primary-color: #d4d4e7;
-  --secundary-color: #dddde9;
+  --secundary-color: #ededf3;
   
   --primary-text-color: #484855;
   --secundary-text-color: #24242c;
@@ -51,7 +51,7 @@ p, a {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 
   padding: 15px;
 
@@ -139,17 +139,43 @@ p, a {
 }
 
 .iconTheme {
+  background-image: url("./img/sun.svg");
+  
   width: 30px;
+  height: 30px;
 }
 
 .text {
   width: 90%;
+  margin-top: 20px;
+}
+
+.assign {
+  font-weight: bold;
+  
+  margin-top: 10px;
+  text-align: right;
 }
 
 footer {
-  width: 100vw;
-  height: 30px;
+  background-color: var(--secundary-color);
 
+  width: 100vw;
+  min-height: 50px;
+  padding: 10px;
   position: absolute;
+
   bottom: 0;
+}
+
+.attribution {
+  display: flex;
+
+  justify-content: space-around ;
+}
+
+.attribution * {
+  color: var(--dark-bar-color);
+  opacity: 0.8;
+
 }
