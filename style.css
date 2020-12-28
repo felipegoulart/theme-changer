@@ -53,7 +53,7 @@ p, a {
   flex-direction: column;
   align-items: left;
 
-  padding: 15px;
+  padding: 15px 30px;
 
   position: relative;
 }
@@ -146,14 +146,18 @@ p, a {
 }
 
 .text {
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
+
+}
+
+.text * {
+  margin-top: 10px;
+  text-indent: 15px;
 }
 
 .assign {
   font-weight: bold;
-  
-  margin-top: 10px;
   text-align: right;
 }
 
