@@ -2,7 +2,7 @@ const html = document.querySelector('html')
 const switchTheme = document.querySelector('#switch')
 const iconTheme = document.querySelector('.iconTheme')
 
-const lightThemeColors = {
+const lightTheme = {
   title: 'lightTheme',
   colors: {
     '--background-color': '#e2e2ee',
@@ -15,7 +15,7 @@ const lightThemeColors = {
   icon: './img/sun.svg'
 }
 
-const darkThemeColors = {
+const darkTheme = {
   title: 'darkTheme',
   colors: {
     '--background-color': '#202027',
