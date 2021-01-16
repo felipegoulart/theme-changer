@@ -37,6 +37,8 @@ const changeStyle = (theme) => {
   setThemeInLocalStorage(theme)
 }
 
+// testando - Guilherme
+
 const setThemeInLocalStorage = (theme) => localStorage.setItem('theme', JSON.stringify(theme))
 const getThemeInLocalStorage = () => JSON.parse(localStorage.getItem('theme'));
 
